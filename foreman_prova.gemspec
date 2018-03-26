@@ -4,12 +4,12 @@ Gem::Specification.new do |s|
   s.name        = 'foreman_prova'
   s.version     = ForemanProva::VERSION
   s.license     = 'GPL-3.0'
-  s.authors     = ['TODO: Your name']
-  s.email       = ['TODO: Your email']
-  s.homepage    = 'TODO'
-  s.summary     = 'TODO: Summary of ForemanProva.'
+  s.authors     = ['Alberto Bellotti']
+  s.email       = ['abellott@redhat.com']
+  s.homepage    = 'https://github.com/abellotti/foreman_prova'
+  s.summary     = 'Sample Foreman Provider A'
   # also update locale/gemspec.rb
-  s.description = 'TODO: Description of ForemanProva.'
+  s.description = 'Description of Sample Foreman Provider A.'
 
   s.files = Dir['{app,config,db,lib,locale}/**/*'] + ['LICENSE', 'Rakefile', 'README.md']
   s.test_files = Dir['test/**/*']
